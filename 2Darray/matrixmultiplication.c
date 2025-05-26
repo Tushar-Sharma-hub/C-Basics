@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<3;i++){
         for(int j=0;j<4;j++){
             res[i][j]=0;
-            for(int k=0;k<2;k++){ //2is used bcz we of the given matrix.
+            for(int k=0;k<2;k++){ //Conditon for multiplication is row and colm should be equal , here it is 2 so we used 2.
                 res[i][j]+=a[i][k]*b[k][j];
             }
         }
